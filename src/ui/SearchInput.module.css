@@ -1,0 +1,23 @@
+.searchInputContainer {
+    max-width: 300px;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 4px 16px;
+    padding-right: 80px;
+    font-size: 14px;
+    border: 2px solid #e2e2e2;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: none;
+    transition: border-color 0.3s;
+}
+
+.searchInput::placeholder {
+    color: #a8a8a8;
+}
+
+.searchInput:focus {
+    border-color: #c0c0c0;
+}

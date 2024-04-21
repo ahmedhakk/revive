@@ -1,0 +1,41 @@
+.userProfile {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    max-width: 250px;
+}
+
+.userAvatar {
+    width: 50px;
+    /* Adjust size as needed */
+    height: 50px;
+    /* Adjust size as needed */
+    border-radius: 50%;
+    /* Circular avatar */
+    margin-right: 10px;
+}
+
+.userInfo {
+    flex-grow: 1;
+}
+
+.userName {
+    font-size: 13px;
+    margin: 0;
+}
+
+.userTitle {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0;
+}
+
+.userDropdownButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdownIcon {
+    font-size: 1rem;
+}
