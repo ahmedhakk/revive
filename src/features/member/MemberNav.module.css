@@ -1,0 +1,31 @@
+.linksContainer {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.link {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--main-color);
+    border-right: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.link:last-child {
+    border-right: none;
+    background-color: #f5f5f5;
+    color: var(--color-grey-700);
+}
+
+.link:hover {
+    background-color: var(--color-grey-300);
+    color: var(--color-grey-700);
+}
+
+.active {
+    background-color: #4CAF50;
+}

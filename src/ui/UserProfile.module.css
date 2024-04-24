@@ -1,7 +1,7 @@
 .userProfile {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 5px 10px;
     max-width: 250px;
 }
 
@@ -20,22 +20,12 @@
 }
 
 .userName {
-    font-size: 13px;
+    font-size: 14px;
     margin: 0;
 }
 
 .userTitle {
-    font-size: 0.8rem;
+    font-size: 10px;
     color: #666;
     margin: 0;
-}
-
-.userDropdownButton {
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdownIcon {
-    font-size: 1rem;
 }
