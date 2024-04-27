@@ -1,0 +1,32 @@
+.styledInput,
+.styledSelect {
+    padding: 10px;
+    padding-left: 30px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    min-width: 300px;
+    border-radius: calc(var(--border-radius-lg) + 3px);
+    background-color: var(--color-grey-100);
+}
+
+.styledInput::placeholder,
+.styledSelect::placeholder {
+    color: var(--color-grey-700);
+    text-transform: capitalize;
+}
+
+/* .styledInput[type="text"],
+.styledInput[type="date"] {
+    width: 100%;
+    box-sizing: border-box;
+} */
+
+.styledSelect {
+    /* width: calc(100% - 20px); */
+    /* Adjust for padding */
+    -webkit-appearance: none;
+    /* For some cross-browser styling */
+    appearance: none;
+}
