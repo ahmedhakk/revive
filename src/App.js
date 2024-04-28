@@ -11,6 +11,7 @@ import Settings from "./pages/Settings";
 import TodayTasks from "./pages/TodayTasks";
 import PageNotFound from "./pages/PageNotFound";
 import MemberStatus from "./features/member/MemberStatus";
+import MemberDetail from "./features/member/MemberDetail";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="inbox" element={<Inbox />} />
           <Route path="member" element={<Member />}>
             <Route path="status" element={<MemberStatus />} />
+            <Route path="status/:memberId" element={<MemberDetail />} />
             <Route path="new-member" element={<NewMember />} />
           </Route>
           <Route path="note" element={<Note />} />

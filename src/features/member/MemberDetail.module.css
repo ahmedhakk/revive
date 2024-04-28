@@ -1,0 +1,15 @@
+.card {
+    padding: 1.4rem 3rem;
+    border-radius: calc(var(--border-radius-lg) + 4px);
+    color: var(--color-brand-500);
+    border: none;
+}
+
+.icon {
+    border-radius: 50%;
+    outline: 8px solid var(--color-grey-100);
+}
+
+.bold {
+    font-weight: bold;
+}
