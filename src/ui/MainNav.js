@@ -4,9 +4,10 @@ import { NavLink } from "react-router-dom";
 import { SlCompass } from "react-icons/sl";
 import { IoPersonOutline } from "react-icons/io5";
 // import { RiCalendarScheduleLine } from "react-icons/ri";
-import { IoIosChatboxes } from "react-icons/io";
+// import { IoIosChatboxes } from "react-icons/io";
 // import { FaRegNoteSticky } from "react-icons/fa6";
 import { IoSettingsOutline } from "react-icons/io5";
+import { MdManageAccounts } from "react-icons/md";
 
 const MainNav = () => {
   return (
@@ -24,18 +25,18 @@ const MainNav = () => {
             <span>Member</span>
           </NavLink>
         </li>
+        <li>
+          <NavLink className={classes.styledNavlink} to="/user-management">
+            <MdManageAccounts />
+            <span>User Management</span>
+          </NavLink>
+        </li>
         {/* <li>
           <NavLink className={classes.styledNavlink} to="/today-tasks">
             <RiCalendarScheduleLine />
             <span>Today Tasks</span>
           </NavLink>
         </li> */}
-        <li>
-          <NavLink className={classes.styledNavlink} to="/inbox">
-            <IoIosChatboxes />
-            <span>Inbox</span>
-          </NavLink>
-        </li>
         {/* <li>
           <NavLink className={classes.styledNavlink} to="/note">
             <FaRegNoteSticky />

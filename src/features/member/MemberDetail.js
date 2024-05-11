@@ -38,13 +38,13 @@ const MemberDetail = () => {
         duration: "2 Weeks",
       },
       {
-        pain_name: "Back Pain",
+        pain_name: "Arm Pain",
         time: "10 mins/day",
         training_name: "Inline lunge",
         duration: "2 Weeks",
       },
       {
-        pain_name: "Back Pain",
+        pain_name: "Body Pain",
         time: "10 mins/day",
         training_name: "Inline lunge",
         duration: "2 Weeks",
@@ -69,7 +69,7 @@ const MemberDetail = () => {
       </StyledInfo>
 
       {MEMBER_DATA.training_list.map((training) => (
-        <Card className={classes.card}>
+        <Card key={training.pain_name} className={classes.card}>
           <Wrapper>
             <MdOutlineLayers className={classes.icon} />
             <div>
