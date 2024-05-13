@@ -45,7 +45,7 @@ const NewMember = () => {
           <Row type="horizontal">
             <Input type="text" placeholder="name" />
             <Input type="date" placeholder="join date" />
-            <Button width="width300px">Save Data</Button>
+            {/* <Button width="width300px">Save Data</Button> */}
           </Row>
         </Card>
       </div>
@@ -64,17 +64,17 @@ const NewMember = () => {
           </Row>
           <br />
           <SaveBtn>
-            <Button width="width300px">Save Data</Button>
+            <Button width="width300px">
+              <AddNewBtnContainer>
+                <FaPlus />
+                <span>Add New Exercise</span>
+              </AddNewBtnContainer>
+            </Button>
           </SaveBtn>
         </Card>
       </div>
       <SaveBtn>
-        <Button width="width300px">
-          <AddNewBtnContainer>
-            <FaPlus />
-            <span>Add New Exercise</span>
-          </AddNewBtnContainer>
-        </Button>
+        <Button width="width300px">Save Data</Button>
       </SaveBtn>
     </>
   );
