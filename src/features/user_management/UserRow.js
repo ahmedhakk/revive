@@ -55,7 +55,10 @@ function UserRow({
     <Table.Row>
       <Username>{username}</Username>
 
-      <span>{name}</span>
+      <Stacked>
+        <span>{name}</span>
+        <span>{phone}</span>
+      </Stacked>
 
       <Stacked>
         <span>{phone}</span>
